@@ -1,0 +1,96 @@
+﻿body {
+    margin: 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 1fr;
+}
+
+.container-item {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-text {
+    background-color: #8EA69B;
+    flex-flow: column wrap;
+    width:44.44%;
+    position:fixed;
+    top:0;
+    right:0;
+}
+
+.text {
+    width: 500px;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+
+.title-name {
+    margin-top:0;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+}
+
+.title-job {
+    margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size:30px;
+}
+
+.contact {
+    margin-top:60px;
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+}
+
+.about-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 21px;
+}
+
+.about-about-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.sub-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin-bottom:10px;
+}
+
+.sub-sub-heading {
+    font-family: 'Asul', serif;
+    font-size: 22px;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.sub-heading-margin {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin-bottom:0;
+}
+
+.contact-margin {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+
+.links {
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
